@@ -18,8 +18,16 @@
 
 <p>While node_modules library are being installed let's create the starter WordPress template. You can use the <a href="https://underscores.me/" rel="nofollow"></a> for this purpose.</p>
 <p>In this step, we need to create an extra folder in our starter theme: named css and inside the css folder we need to create the sass folder with main.sass inside. And in the js folder (no need to to create it, the underscores generator created it already for us) we have to create the app.js file.</p>
-<p></p>
+
+<h4>For example:</h4>
+
+<code>css -> sass -> main.sass</code>
+<code>js -> app.j</code>
+
+<p>These are the main JavaScript and CSS files for your project. But pay atantion. On first launch Gulp will create minified copies of these files: <strong>app.min.js</strong> and <strong>app.min.css</strong>. Don't forget to plug them into function.php</p>
 
 <h3>Step 5</h3>
 
-<p></p>
+<p>Turn into our Gulp starter folder. There are the gulpfile.js open it. In the paths to files and folders you will notice <strong>themename</strong> we used this world for example. You need to replace it with your own theme name.</p>
+<p>And the last thing. On the 22nd line of the gulpfile.js enter the address of your local server.</p>
+
