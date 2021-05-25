@@ -23,7 +23,7 @@
 
 <ul>
     <li><strong>css -> sass -> main.sass</strong></li>
-    <li><strong>js -> app.j</strong></li>
+    <li><strong>js -> app.js</strong></li>
 </ul>
 
 
